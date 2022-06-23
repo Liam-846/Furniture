@@ -1,0 +1,415 @@
+.register{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registercontainer{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.registerimgcontainer{
+    width: 500px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.registerimg{
+    width: 450px;
+    height: 400px;
+    background-color: gray;
+    overflow: hidden;
+}
+.registerimg img{
+    width: 100%;
+    height: 100%;
+}
+.smallimgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallimg{
+    width: 100px;
+    height: 100px;
+    margin:8px;
+    background-color: gray;
+    overflow: hidden;
+}
+.smallimg img{
+    width: 100%;
+    height: 100%;
+}
+.smallimg:hover img{
+    padding: 0 25px;
+    width: 100%;
+    height: 225px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}   
+.salediscount{
+    width: 100%;
+}
+.discount{
+    height: 60px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.discount span{
+    /* padding: 10px; */
+    font-size: 20px;
+}
+.discount img{
+    width: 100px;
+}
+.discounttext{
+    font-size: 11px;
+}
+.colorchoose{
+    margin-top: 10px;
+    height: 100px;
+    line-height: 30px;
+}
+.colorchoose h5,.sizechoose h5{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.colorchoose a{
+    font-weight: lighter;
+    color: #3f413f;
+    padding: 2px 15px;
+    border: 1px solid #3f413f69;
+}
+.colorchoose a .prered{
+    width: 50px;
+    height: 50px;
+    /* border-radius: 10px; */
+    background-color: black;
+}
+.registerformcontainer{
+    width: 20vw;
+    height: 70vh;
+    /* background-color: aliceblue; */
+}
+.sizechoose{
+    margin-top: 10px;
+    height: 100px;
+    line-height: 30px;
+}
+.sizechoose a{
+    color: #3f413f;
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 2px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.topregister{
+    width: 100%;
+}
+.topregister a:nth-child(1){
+    color: #3f413f;
+    border-right: 1px solid tomato;
+    font-size: 13px;
+    padding: 10px;
+}
+.topregister a:nth-child(2){
+    font-size: 13px;
+    color: #3f413f;
+    padding: 10px;
+}
+.topregister a i{
+    color: tomato;
+    padding: 10px;
+    font-size: 20px;
+}
+.addtocart{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.addtocart a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: tomato;
+}
+.feechoose{
+    margin-top: 10px;
+    height: 50px;
+    line-height: 30px;
+}
+.feechoose p{
+    padding: 10px;
+    font-size: 20px;
+}
+.feechoose .tax{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.warrantly{
+    margin: 10px 0px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(147, 147, 147, 0.412);
+}
+.warr{
+    font-size: 13px;
+}
+.warr a{
+    display: block;
+    color: tomato;
+}
+.productdetails{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.details{
+    /* width: 29vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.details .produc{
+    font-weight: 500;
+    color: tomato;
+}
+.fsdetails{
+    display: flex;
+    justify-content: space-between;
+}
+.fsdetails ul li 
+{
+        font-size: 13px;
+        font-weight: lighter;
+}
+.fsdetails ul li h4{
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+    padding:12px 0px;
+}
+.moreinforma a,.moreinforma a i{
+    color: tomato;
+}
+.moreinforma a i{
+    padding: 10px;
+}
+.fsde{
+    width: 250px;
+}
+.delivery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deliverycontainer{
+    width: 60vw;
+    margin-top: 40px;
+    padding: 10px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deliok{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deliok i.fa-truck{
+    font-size: 40px;
+    color: #3f413f;
+}
+.deliok h4{
+    width: 100%;
+    padding: 5px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+}
+.deliok h4::after{
+    content: '';
+    width: 100px;
+    border-bottom: 1px solid #3f413f;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+.deliok p{
+    padding: 5px;
+    color: #9d9d9d;
+    font-size: 15px;
+}
+.selectdeli select{
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: lighter;
+    background-color: tomato;
+    color: #fff;
+}
+.moreinforma{
+    position: relative;
+}
+.moreinforma:hover .moreinfocontainer{
+    display: block;
+}
+.moreinfocontainer{
+    width: 60vw;
+    height: 45vh;
+    /* padding: 30px 5px; */
+    background-color:#f0f0f0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 60px;
+    z-index: 100;
+    display: none;
+}
+.moreinfocontainer::after{
+    content: '';
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    position: absolute;
+    top: -35px;
+    left: 0;
+    z-index: -1;
+}
+.more-informations{
+    padding: 5px;
+    border-bottom: 1px solid black;
+    display: flex;
+    /* justify-content: space-between;     */
+    position: relative;
+}
+.more-informations div{
+    display: none;
+}
+.features,.properties,.care,.warran,.returns,.quality{
+    line-height: 20px;
+    cursor: pointer;
+    color: tomato;
+    padding: 5px 20px;
+    border-right: 1px solid tomato;
+}
+.features:hover,
+.properties:hover,
+.care:hover,
+.warran:hover,
+.returns:hover,
+.quality:hover{
+    border-bottom: 1px solid tomato;
+}
+.more-informations li div ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+.more-informations li:hover div{
+    display: block;
+}
+.featurecontainer{
+    width: 100%;
+}
+.more-informations li div ul{
+    width: 100%;
+    height: 30vh;
+    padding: 20px 5px ;
+    /* background-color: green; */
+}
+.features ul li ,.care ul li,.warran ul li ,.returns ul li,.quality ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 0;
+    margin:0;
+}
+.stains ol li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.propertiescontainer ul div li{
+    list-style-type: disc;
+    display: flex;
+    font-size: 15px;
+    font-weight: 100;
+}
+.propertiescontainer ul div li h5{
+    /* font-weight: 500; */
+    padding: 0px 10px;
+}
+.fa-caret-down{
+    font-size: 15px;
+    transition: all 0.3s linear;
+}
+.moreinforma:hover .fa-caret-down{
+    transform: rotateX(180deg);
+    transition: all 0.3s linear;
+}
+.fa-truck{
+   position: relative;
+}
+/* .fa-truck::after{
+    content: '';
+    width: 130%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.095);
+    transform: rotateX(80deg);
+    transform-origin: bottom;
+    position: absolute;
+    top: 5px;
+    left: -5px;
+} */
+.deliverycontainer:hover{
+    cursor: pointer;
+}
+.deliok:hover .fa-truck{
+    animation: animi 5s linear alternate;
+}
+@keyframes animi{
+    0%{
+        transform: translateY(2px);
+    }
+    3%{
+        transform: translateY(0px);
+    }
+    6%{
+        transform: translateY(3px);
+    }
+    9%{
+        transform: translateY(0px);
+    }
+    12%{
+        transform: translateY(3px);
+    }
+    15%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateX(60vw);
+    }
+    50.1%{
+        transform:translateX(-80vw) ;
+    }
+    100%{
+       transform: translateX(0px); 
+    }
+}

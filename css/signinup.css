@@ -1,0 +1,221 @@
+.login{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logincontainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singin input{
+    width: 370px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.468);
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.193);
+}
+.singin{
+    width: 50vw;
+    height: 90vh;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px ;
+    background-color: aliceblue;
+    /* border: 1px solid rgba(0, 0, 0, 0.093); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social i{
+    font-size: 30px;
+    cursor: pointer;
+    color: #3f413f;
+}
+.singin .usingsocial .social{
+    /* width: 100px; */
+    padding: 10px 5px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+.usingsocial span{
+    font-size: 18px;
+    padding: 10px;
+}
+.singup{
+    width: 20vw;
+    height: 90vh;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* background-color: tomato; */
+    background-image: url(../img/Colored\ Shapes.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.singup span{
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.307);
+    width: 250px;
+    font-size: 15px;
+    margin: 10px 0px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+.singup h4{
+    color: #fff;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.307);
+}
+.singin h4,.singup h4{
+    font-size: 35px;
+    padding: 10px;
+}
+a.singupa{
+    background-color: #fff;
+    color: black;
+}
+a.signin{
+    background-color: tomato;
+    color: #fff;
+}
+a.signin,a.singupa{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.or{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.or::after{
+    content: '';
+    width: 160px;
+    height: 30%;
+    border-bottom: 1px solid rgba(146, 141, 141, 0.468);
+    position: absolute;
+    top: 5px;
+    right:26%;
+}
+.or::before{
+    content: '';
+    width: 160px;
+    height: 30%;
+    border-bottom: 1px solid rgba(146, 141, 141, 0.468);
+    position: absolute;
+    top: 5px;
+    left: 26%;
+}
+
+/* ___________________________ */
+.singup1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singupcontainer{
+    width: 80%;
+    /* height: 90vh; */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.088);
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstsingup{
+    width: 35vw;
+    height: 90vh;
+    padding: 30px 40px;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.firstsingup h5{
+    font-size: 25px;
+}
+.firstsingup input{
+    width: 400px;
+    height: 60px;
+    padding: 5px;
+    margin: 10px 5px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.193);
+}
+.firstsingup a.create{
+    width: 400px;
+    height: 50px;
+    margin: 20px 5px;
+    color: #fff;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ttp a{
+    padding: 10px;
+    color: tomato;
+}
+.qqw{
+    width: 27vw;
+    height: 75vh;
+    /* background-color: aliceblue; */
+}
+.qqw h5{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.qqw h5 span.royal{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: tomato;
+}
+.qqw p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.orsingup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social1{
+    display: flex;
+    justify-content: space-around;
+}
+.social1 i{
+    font-size: 25px;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.296);
+}
+.orsingup{
+    padding: 15px;
+}
+.secondsingup{
+    width: 35vw;
+    height: 90vh;
+    /* background-color: tomato; */
+    background-image: url(../img/side.svg);
+}
